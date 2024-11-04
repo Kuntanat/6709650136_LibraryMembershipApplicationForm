@@ -6,6 +6,7 @@
     <title>LibraryMembershipApplicationFormPublic</title>
 </head>
 <body>
+    <form>
     <label for="TH Firstname">ชื่อ</label><br>
     <input type="text" id="THFirstname" name="THFirstname"><br>
     <label for="TH Lastname">นามสกุล</label><br>
@@ -13,6 +14,40 @@
     <label for="ENG Firstname">FirstName</label><br>
     <input type="text" id="ENGFirstname" name="ENGFirstname"><br>
     <label for="ENG Lastname">LastName</label><br>
-    <input type="text" id="ENGLastname" name="ENGLastname">
+    <input type="text" id="ENGLastname" name="ENGLastname"><br>
+    <label for="gender">เพศ:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">ชาย</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">หญิง</label><br>
+    <input type="radio" id="์Notspecified" name="gender" value="Notspecified">
+    <label for="Notspecified">ไม่ระบุ</label><br>
+    <label for="Others">อื่นๆ</label><br>
+    <input type="text" id="Others" name="gender" style="width: 80px;"><br>
+    <label for="Student ID">รหัสนักศึกษา</label><br>
+    <input type="text" id="Student ID" name="Student ID"><br>
+    <label for="Faculty">คณะที่ศึกษา</label><br>
+    <input type="text" id="Faculty" name="Faculty"><br>
+    <label for="E-mail">ที่อยู่อีเมล (E-mail address)</label><br>
+    <input type="text" id="E-mail" name="E-mail"><br>
+    <label for="date">วัน-เดือน-ปี เกิด</label><br>
+    <input type="date" id="date" name="date" value="date"><br>
+    <label for="books">ประเภทของหนังสือที่สนใจ</label><br>
+    <select name="books" id="books">
+    <option value="Select2">Select</option>
+    <option value="Historical fiction">Historical fiction</option>
+    <option value="Science fiction">Science fiction</option>
+    <option value="Horror">Horror</option>
+    <option value="Tragedy">Tragedy</option>
+    <option value="Romance">Romance</option>
+    <option value="Western">Western</option>
+    <option value="Literary fiction">Literary fiction</option>
+    </select><br>
+    <label for="books">ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่</label><br>
+    <input type="radio" id="Yes" name="Yes" value="Yes">
+    <label for="Yes">Yes</label>
+    <input type="radio" id="No" name="No" value="No">
+    <label for="No">No</label>
+</form>
 </body>
 </html>
