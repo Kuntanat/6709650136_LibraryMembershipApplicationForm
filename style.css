@@ -1,0 +1,22 @@
+form{
+    font-size: 20px;
+    text-align: center;
+}
+input[type="radio"] ,input[type="date"]{
+    transform: scale(1.5); 
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    border-radius: 10px;
+}
+#THFirstname, #THLastname, #ENGFirstname, #ENGLastname, #Student\ ID, #Faculty, #E-mail,#Others {
+    width: 30%;
+    padding: 0px;
+    font-size: 1.2em;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#books{
+    width: 10%;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
