@@ -1,6 +1,10 @@
+body{
+    background-color: black;
+}
 form{
     font-size: 20px;
-    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 input[type="radio"] ,input[type="date"]{
     transform: scale(1.5); 
@@ -11,12 +15,52 @@ input[type="radio"] ,input[type="date"]{
 #THFirstname, #THLastname, #ENGFirstname, #ENGLastname, #Student\ ID, #Faculty, #E-mail,#Others {
     width: 30%;
     padding: 0px;
-    font-size: 1.2em;
     margin-top: 10px;
     border-radius: 10px;
+    width: 200px;
+    font-size: medium;
+    height: 25px;
 }
 #books{
-    width: 10%;
-    font-size: 1.2em;
+    width: 30%;
+    font-size: 20px;
     border-radius: 10px;
+}
+.FORM{
+    background-color: white;
+    opacity: 0.8;
+    width:fit-content;
+    border-radius: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#date{
+    margin-left: 30px;
+}
+select option[value="Select2"]{
+    color: gray;
+}
+#E-mail{
+    width: 200px;
+    font-size: medium;
+    height: 25px;
+}
+#Student\ ID{
+    width: 130px;
+}
+#Faculty{
+    width: 180px;
+}
+select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input[type="text"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
